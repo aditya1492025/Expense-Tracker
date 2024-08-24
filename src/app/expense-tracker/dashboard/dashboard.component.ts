@@ -34,13 +34,13 @@ export class DashboardComponent {
   constructor(public router: Router) { }
 
   onIncome() {
-    this.router.navigate(['/budget-planner/income']);
+    this.router.navigate(['/expense-tracker/income']);
   }
   onExpense() {
-    this.router.navigate(['/budget-planner/expense']);
+    this.router.navigate(['/expense-tracker/expense']);
   }
   onTodo() {
-    this.router.navigate(['/budget-planner/todo']);
+    this.router.navigate(['/expense-tracker/todo']);
   }
   
   //Calculate Total

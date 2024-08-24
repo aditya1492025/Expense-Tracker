@@ -4,11 +4,10 @@ body {
 }
 
 .main-container {
-    color: #050000;
-    background-color: rgb(250, 249, 252);
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(252, 251, 251, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .container {
@@ -35,14 +34,14 @@ body {
 
 .input-form .form-control {
     padding: 12px;
-    border: 1px solid #f8fafb;
+    border: 1px solid #ced4da;
     border-radius: 6px;
     transition: border-color 0.3s ease;
     font-size: 16px;
 }
 
 .input-form .form-control:focus {
-    background: #fefefe;
+    background: #bfe0e4;
     outline: none;
 }
 
@@ -58,7 +57,7 @@ body {
 }
 
 .btn-primary:hover {
-    background: #80ced6;
+    background: #003366;
 }
 
 .table {
@@ -87,12 +86,13 @@ body {
     background-color: #e2e6ea;
 }
 
-.total-income {
+.total-expense {
     background-color: #f2f9ff;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 6px;
 }
+
 .disabled-dropdown {
     color: #6c757d;
     background-color: #e9ecef;
